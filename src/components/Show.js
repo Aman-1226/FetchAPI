@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Showitems from "./Showitems";
 
+
 const Show = () => {
   const [show, setShow] = useState([]);
 
@@ -42,7 +43,7 @@ const Show = () => {
                 <Showitems
                   name={element.name}
                   summary={element.summary}
-                  url={element.url}
+                  image={element.image}
                 />
               </div>
             );
